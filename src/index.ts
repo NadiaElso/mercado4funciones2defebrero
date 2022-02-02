@@ -1,5 +1,13 @@
-console.log("Bienvenidos a Mercado 6");
-
+console.log("Bienvenidos a Mercado 7");
+let productonuevo1: string = "";
+let stocknuevoproducto1: number = 0;
+let precioproductonuevo1: number = 0;
+let productonuevo2: string = "";
+let stocknuevoproducto2: number = 0;
+let precioproductonuevo2: number = 0;
+let productonuevo3: string = "";
+let stocknuevoproducto3: number = 0;
+let precioproductonuevo3: number = 0;
 function cargadeproductos() {
   let ingresoproductonuevos1: string = String(
     prompt("ingreso de  producto nuevo 1")
@@ -10,10 +18,6 @@ function cargadeproductos() {
   let preciodelosproductosnuevos1: number = Number(
     prompt("ingresa el precio ")
   );
-
-  let productonuevo1: string = "";
-  let stocknuevoproducto1: number = 0;
-  let precioproductonuevo1: number = 0;
 
   if (
     stockinicialdelosproductosnuevos1 > 0 &&
@@ -37,10 +41,6 @@ function cargadeproductos() {
     prompt("ingresa el precio ")
   );
 
-  let productonuevo2: string = "";
-  let stocknuevoproducto2: number = 0;
-  let precioproductonuevo2: number = 0;
-
   if (
     stockinicialdelosproductosnuevos2 > 0 &&
     preciodelosproductosnuevos2 > 0
@@ -62,10 +62,6 @@ function cargadeproductos() {
   let preciodelosproductosnuevos3: number = Number(
     prompt("ingresa el precio ")
   );
-
-  let productonuevo3: string = "";
-  let stocknuevoproducto3: number = 0;
-  let precioproductonuevo3: number = 0;
 
   if (
     stockinicialdelosproductosnuevos3 > 0 &&
