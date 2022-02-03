@@ -148,3 +148,7 @@ function compradeusuario() {
     }
   }
 }
+
+
+cargadeproductos()
+compradeusuario()
