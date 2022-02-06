@@ -1,4 +1,4 @@
-console.log("Bienvenidos a Mercado 7");
+/*console.log("Bienvenidos a Mercado 7");
 let productonuevo1: string = "";
 let stocknuevoproducto1: number = 0;
 let precioproductonuevo1: number = 0;
@@ -150,5 +150,5 @@ function compradeusuario() {
 }
 
 
-cargadeproductos()
+
 compradeusuario()
